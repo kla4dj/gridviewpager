@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/mitarbeiter_experte_rufen_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="18dp"
+    android:gravity="top">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:background="@color/white"
+        app:layout_box="all">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Rufe Experte"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="left"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="______________________"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="30dp"
+
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:src="@drawable/iwb_logo"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <android.support.wearable.view.DelayedConfirmationView
+            android:id="@+id/delayed_confirmation_experte_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/ic_menu_close_clear_cancel_1"
+            app:circle_color="@color/blue"
+            app:circle_border_color="#0000cd"
+            app:circle_border_width="10dp"
+            app:circle_padding="1dp"
+            app:circle_radius="33dp"
+            app:circle_radius_pressed="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:text="Experte wird gerufen…"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="85dp" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

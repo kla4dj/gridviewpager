@@ -1,0 +1,74 @@
+<android.support.wearable.view.BoxInsetLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/mitarbeiter_auswahl_layout"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="1dp"    >
+    <!--android:padding="30dp"-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:background="@color/white"
+        app:layout_box="all">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/iwb_logo"
+            android:onClick="OnClickLogo"/>
+
+
+        //TextView Auswahl treffen
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:text="@string/textview_mitarbeiter_auswahl"
+            android:id="@+id/textview_mitarbeiter_auswahl"
+            android:layout_gravity="center_horizontal|center"
+            android:textColor="#000"/>
+
+
+        // Button Springer
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_springer"
+            android:id="@+id/button_springer_rufen"
+            android:layout_gravity="center"
+            android:onClick="OnClickCallSpringer"/>
+
+        // Button Experte
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/button_experte"
+            android:id="@+id/button_experte_rufen"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="OnClickCallExperte"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/heart_animation"
+            android:layout_gravity="right|top" />
+
+
+    </FrameLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
+
+
+

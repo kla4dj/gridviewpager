@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Masterarbeit_v_0_4</string>
+
+    <!--Die folgenden zwei Strings entfernen-->
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string name="button_springer">Springer</string>
+    <string name="button_experte">Experte</string>
+    <string name="textview_mitarbeiter_auswahl">Auswahl treffen</string>
+    <string name="msg_success">Erfolgreich</string>
+    <string name="msg_fail">Fehlgeschlagen</string>
+    <string name="workerselection_title">Mitarbeiterlogin</string>
+    <string name="teschemacher">Ulrich Teschemacher</string>
+    <string name="steinhaeusser">Tobias Steinhäußer</string>
+    <string name="meis">Jan-Fabian Meis</string>
+    <string name="lock">Christopher Lock</string>
+    <string name="plehn">Christian Plehn</string>
+    <string name="dollinger">Christiane Dollinger</string>
+
+
+
+
+</resources>

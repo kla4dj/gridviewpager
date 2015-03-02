@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001A4A">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tum"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tum_logo" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/iwb_white_background"
+        android:layout_below="@+id/tum_logo"
+        android:layout_alignStart="@+id/tum_logo"
+        android:onClick="taseenbutton"
+        android:id="@+id/iwb_logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mi4"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:layout_alignStart="@+id/iwb_logo"
+        android:layout_alignEnd="@+id/iwb_logo"
+        android:onClick="sendStartActivityMessage"
+        tools:context=".MobileActivity"
+        android:background="#ffd3d3d3" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Offene Anfragen"-->
+        <!--android:id="@+id/taseenbutton"-->
+        <!--android:layout_above="@+id/button"-->
+        <!--android:layout_centerHorizontal="true"-->
+       <!--/>-->
+
+</RelativeLayout>

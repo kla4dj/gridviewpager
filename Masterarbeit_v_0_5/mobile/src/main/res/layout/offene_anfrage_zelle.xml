@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rufender_Name"
+            android:text="Name"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/Anfragezeitpunkt"
+            android:layout_weight="1"
+            android:text="Anfragezeitpunkt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Anfragetyp"
+            android:id="@+id/Anfragetyp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/Mitarbeiter_rufend_Bild"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/rufende_Station_Bild"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher"/>
+
+</LinearLayout>

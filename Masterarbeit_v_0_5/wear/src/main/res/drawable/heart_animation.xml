@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/heart_animation"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/heart_grey" android:duration="500" />
+    <item android:drawable="@drawable/heart_red" android:duration="900" />
+    <item android:drawable="@drawable/heart_grey" android:duration="200" />
+    <item android:drawable="@drawable/heart_red" android:duration="350" />
+    <item android:drawable="@drawable/heart_grey" android:duration="200" />
+    <item android:drawable="@drawable/heart_red" android:duration="350" />
+</animation-list>
